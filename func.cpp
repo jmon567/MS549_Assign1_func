@@ -38,7 +38,7 @@ void breath()
 		cout << endl;
 }
 
- void roll ()
+ static void roll ()
 
 {
 	 int dice1 = rand() % 6 + 1;

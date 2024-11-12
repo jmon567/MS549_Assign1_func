@@ -6,6 +6,6 @@ using namespace std;
 int menu();
 void breath();
 
-void roll(int dice, int choice);
+void roll();
 
 

@@ -9,14 +9,23 @@ using namespace std;
 
 int main()
 {
-	int option = menu();
-	if (option == 1)
+	srand(time(NULL));
+	bool notDone = true;
+	while (notDone)
 	{
-		breath();
+		int option = menu();
+		if (option == 1)
+		{
+			breath();
+		}
+		else if (option == 2)
+		{
+			roll;
+		}
+		else
+		{
+			notDone = false;
+		}
 	}
-	else if (option == 2)
-	{
-		roll;
-	}
-
+	return 0;
 }
