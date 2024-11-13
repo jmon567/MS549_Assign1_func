@@ -38,15 +38,15 @@ void breath()
 		cout << endl;
 }
 
- static void roll ()
+void roll ()
 
 {
-	 int dice1 = rand() % 6 + 1;
-	 int dice2 = rand() % 6 + 1;
+	 int dice1 = rand() % 6;
+	 int dice2 = rand() % 6;
 	 int sum = dice1 + dice2;
 	this_thread::sleep_for(chrono::seconds(1));
 
-	cout << "The two dice you rolled add up to " << sum << endl;
+	  cout << "The two dice you rolled add up to " << sum << endl;
 	
 }
 

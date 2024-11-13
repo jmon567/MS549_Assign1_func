@@ -9,7 +9,7 @@ using namespace std;
 
 int main()
 {
-	srand(time(NULL));
+	//srand(time(NULL));
 	bool notDone = true;
 	while (notDone)
 	{
@@ -17,10 +17,10 @@ int main()
 		if (option == 1)
 		{
 			breath();
-		}
-		else if (option == 2)
+		}else if (option == 2)
 		{
-			roll;
+			roll();
+		
 		}
 		else
 		{
